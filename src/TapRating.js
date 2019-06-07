@@ -69,11 +69,7 @@ export default class TapRating extends Component {
 
     return (
       <View style={styles.ratingContainer}>
-        { showRating &&
-          <Text style={styles.reviewText}>
-            {reviews[position - 1]}
-          </Text>
-        }
+       
         <View style={styles.starContainer}>
           {this.renderStars(rating_array)}
         </View>
