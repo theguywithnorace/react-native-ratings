@@ -62,6 +62,6 @@ export default class Star extends PureComponent {
 
 const styles = StyleSheet.create( {
   starStyle: {
-    margin: 5
+    marginHorizontal: 8
   }
 } );
