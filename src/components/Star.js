@@ -7,7 +7,7 @@ const STAR_SIZE = 40;
 
 export default class Star extends PureComponent {
   static defaultProps = {
-    selectedColor: '#f1c40f'
+    selectedColor: '#181687'
   };
 
   constructor() {
